@@ -5,19 +5,9 @@ export default function Home() {
 
     return (
         <View style={styles.container}>
-            <Link href="/about">
-                About
-            </Link>
-            <Link href="/contact">
-                Contact
-            </Link>
-            <View style={styles.child1}>
-                {/* <Text style={styles.text}>Layout</Text> */}
-                <View style={styles.child11}></View>
-                <View style={styles.child12}></View>
-            </View>
-            <View style={styles.child2}></View>
-            <View style={styles.child3}></View>
+            <Text style={styles.text}>
+            Christian Jay J. Lina
+            </Text>
         </View>
     )
 }
@@ -37,8 +27,9 @@ const styles = StyleSheet.create({
     },
     container: {
         flex: 1,
-        // flexDirection: 'row',
-        backgroundColor: 'orange',
+         justifyContent: 'center',
+         alignItems: 'center',
+        backgroundColor: '#FFFFF0',
     },
     child1: {
         flex: 5,
@@ -57,6 +48,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
     },
     text: {
-        color: '#fff',
+        color: '#4A4A4A',
+        fontSize: 34
     }
 })
