@@ -67,7 +67,7 @@ export default function registerScreen(){
                     label={input.label}
                     placeholder={input.placeholder}
                     value={input.value}
-                    onChange={input.onChange}
+                    onChangeText={input.onChange}
                     secureTextEntry={input.secure}
                     mode="outlined"
                 />
